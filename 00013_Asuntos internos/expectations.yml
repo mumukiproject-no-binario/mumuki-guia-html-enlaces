@@ -1,0 +1,20 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body
+  inspection: DeclaresTag:ul
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/ul
+  inspection: DeclaresTag:li
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/ul/li/a
+  inspection: DeclaresAttribute:href="#tamanio"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/ul/li/a
+  inspection: DeclaresAttribute:href="#forma"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/ul/li/a
+  inspection: DeclaresAttribute:href="#color"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/ul/li/a
+  inspection: DeclaresAttribute:href="#estructura_cuantica"

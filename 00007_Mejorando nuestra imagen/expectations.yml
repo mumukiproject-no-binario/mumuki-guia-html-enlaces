@@ -1,0 +1,8 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/img
+  inspection: DeclaresAttribute:width="400px"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/img
+  inspection: DeclaresAttribute:height="20px"

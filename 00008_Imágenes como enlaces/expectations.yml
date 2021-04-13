@@ -1,0 +1,23 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body
+  inspection: DeclaresTag:a
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/a
+  inspection: DeclaresTag:img
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/a
+  inspection: DeclaresAttribute:href="https://mumuki.io/home"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/a
+  inspection: DeclaresAttribute:target="_blank"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/a/img
+  inspection: DeclaresAttribute:src="https://mumuki.io/logo-alt-large.png"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/a/img
+  inspection: DeclaresAttribute:width="400px"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/a/img
+  inspection: Not:DeclaresAttribute:height

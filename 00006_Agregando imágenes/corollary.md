@@ -1,0 +1,1 @@
+_¿Dispositivos de accesibilidad?_ :thought_balloon: Son dispositivos que facilitan el uso de las páginas web para personas con discapacidades. Por ejemplo, los [lectores de pantalla](https://es.wikipedia.org/wiki/Lector_de_pantalla) podrían leer el contenido del `alt` y reproducirlo para las personas no videntes. :blush:

@@ -1,0 +1,11 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body
+  inspection: DeclaresTag:img
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/img
+  inspection: DeclaresAttribute:src="https://mumuki.io/logo-alt-large.png"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/img
+  inspection: DeclaresAttribute:alt="Logo de mumuki"
